@@ -1,0 +1,44 @@
+- Implement Sentiment Analysis for excerpt fetching
+  - Research and choose appropriate sentiment analysis library
+  - Integrate sentiment analysis into excerpt fetching process
+  - Display sentiment scores alongside excerpts in UI
+
+- Enhance verification process for automatic party/election data setting
+  - Implement robust error handling and validation
+  - Add logging for debugging and monitoring
+  - Create unit tests to ensure reliability
+
+- Develop Common Criticisms feature
+  - Integrate with Perplexity API for generating criticisms
+  - Design and implement UI for displaying criticisms
+  - Add user feedback mechanism for criticism relevance
+
+- Refactor Election Component
+  - Extract state management to a separate store (e.g., using Redux or Context API)
+  - Implement automatic updates for topics tab when new programs are added
+  - Optimize performance with memoization techniques
+
+- Improve build and deployment process
+  - Move run.sh and deploy.sh commands into package.json scripts
+  - Update documentation to reflect new build/deploy process
+  - Consider implementing a CI/CD pipeline for automated deployments
+
+- Optimize API calls for topics and parties
+  - Implement parallel async calls using Promise.all()
+  - Add error handling and retries for failed requests
+  - Cache results to reduce unnecessary API calls
+
+- Enhance UI/UX with ShadCN and TailwindCSS
+  - Refactor components to use ShadCN where applicable
+  - Optimize TailwindCSS usage for better performance
+  - Ensure responsive design across all device sizes
+
+- Set up Biome for consistent code formatting
+  - Configure Biome for TypeScript and React
+  - Integrate Biome with VS Code or preferred IDE
+  - Add pre-commit hook to ensure code is formatted before committing
+
+- Stream answers from Groq
+- Find an elegant solution to Token Limits and CutOff of Program Content (check SambaNova or split content into multiple requests)
+  - Probably best to use Gemini-Flash or Gpt-4o mini
+- Make sure GroqRetry actually works

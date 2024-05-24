@@ -1,0 +1,42 @@
+[
+	{ "id": "healthcare", "name": "Healthcare", "prio": "true" },
+	{
+		"id": "climate-and-environment",
+		"name": "Climate and Environment",
+		"prio": "true"
+	},
+	{ "id": "civil-rights", "name": "Civil Rights", "prio": "true" },
+	{ "id": "national-security", "name": "National Security", "prio": "true" },
+	{
+		"id": "trade-and-economics",
+		"name": "Trade and Economics",
+		"prio": "true"
+	},
+	{ "id": "education", "name": "Education" },
+	{ "id": "immigration", "name": "Immigration" },
+	{ "id": "tax-policy", "name": "Tax Policy" },
+	{ "id": "social-welfare", "name": "Social Welfare" },
+	{ "id": "foreign-policy", "name": "Foreign Policy" },
+	{ "id": "public-infrastructure", "name": "Public Infrastructure" },
+	{ "id": "labor-and-employment", "name": "Labor and Employment" },
+	{ "id": "technology-and-privacy", "name": "Technology and Privacy" },
+	{ "id": "government-reform", "name": "Government Reform" },
+	{ "id": "energy-policy", "name": "Energy Policy" },
+	{ "id": "public-health", "name": "Public Health" },
+	{ "id": "drug-policy", "name": "Drug Policy" },
+	{ "id": "international-aid", "name": "International Aid" },
+	{ "id": "criminal-justice", "name": "Criminal Justice" },
+	{ "id": "family-and-childcare", "name": "Family and Childcare" },
+	{ "id": "gender-and-equality", "name": "Gender and Equality" },
+	{ "id": "racial-justice", "name": "Racial Justice" },
+	{ "id": "lgbtq-rights", "name": "LGBTQ+ Rights" },
+	{ "id": "youth-and-education", "name": "Youth and Education" },
+	{ "id": "arts-and-culture", "name": "Arts and Culture" },
+	{ "id": "mental-health", "name": "Mental Health" },
+	{ "id": "cybersecurity", "name": "Cybersecurity" },
+	{ "id": "income-inequality", "name": "Income Inequality" },
+	{ "id": "science-and-innovation", "name": "Science and Innovation" },
+	{ "id": "consumer-protection", "name": "Consumer Protection" },
+	{ "id": "pension-and-retirement", "name": "Pension and Retirement" },
+	{ "id": "emergency-preparedness", "name": "Emergency Preparedness" }
+]

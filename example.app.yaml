@@ -1,0 +1,46 @@
+runtime: nodejs22
+env_variables:
+  GROQ_API_KEY: ""
+  GOOGLE_APPLICATION_CREDENTIALS: "./serviceAccountKey.json"
+  PORT: "8080"
+handlers:
+  - url: /
+    static_files: frontend/dist/index.html
+    upload: frontend/dist/index.html
+
+  - url: /assets
+    static_dir: frontend/dist/assets
+  
+  - url: /favicon.svg
+    static_files: frontend/dist/favicon.svg
+    upload: frontend/dist/favicon.svg
+
+  - url: /manifest.json
+    static_files: frontend/dist/manifest.json
+    upload: frontend/dist/manifest.json
+
+  - url: /asset-manifest.json
+    static_files: frontend/dist/asset-manifest.json
+    upload: frontend/dist/asset-manifest.json
+
+  - url: /logo192.png
+    static_files: frontend/dist/logo192.png
+    upload: frontend/dist/logo192.png
+
+  - url: /logo512.png
+    static_files: frontend/dist/logo512.png
+    upload: frontend/dist/logo512.png
+  
+  - url: /api
+    script: auto
+    secure: always
+
+  - url: /elections
+    static_files: frontend/dist/index.html
+    upload: frontend/dist/index.html
+
+  - url: /sessions
+    static_files: frontend/dist/index.html
+    upload: frontend/dist/index.html
+
+entrypoint: node dist/server.js

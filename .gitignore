@@ -1,0 +1,11 @@
+__pycache__
+venv
+.aider*
+.env
+serviceAccountKey.json
+node_modules
+.vscode
+dist
+tmp
+app.yaml
+.DS_Store

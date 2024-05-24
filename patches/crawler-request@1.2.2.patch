@@ -1,0 +1,37 @@
+diff --git a/node_modules/crawler-request/crawler-request.d.ts b/crawler-request.d.ts
+new file mode 100644
+index 0000000000000000000000000000000000000000..88b0d27ea86a256af57da35d7292ec2e19a54462
+--- /dev/null
++++ b/crawler-request.d.ts
+@@ -0,0 +1,30 @@
++declare module 'crawler-request' {
++    interface HtmlToTextOptions {
++        tables?: boolean;
++        wordwrap?: boolean | number;
++        ignoreImage?: boolean;
++        preserveNewlines?: boolean;
++        uppercaseHeadings?: boolean;
++        hideLinkHrefIfSameAsText?: boolean;
++        baseElement?: string | string[];
++        ignoreHref?: boolean;
++        noLinkBrackets?: boolean;
++    }
++
++    interface CrawlerResult {
++        url: string;
++        type: 'none' | 'html' | 'pdf';
++        html: string | null;
++        text: string | null;
++        status: number | null;
++        error: string | null;
++    }
++
++    interface CrawlerRequestWrapper {
++        (current_url: string | string[], callbackArr?: ((result: CrawlerResult) => CrawlerResult | Promise<CrawlerResult>) | ((result: CrawlerResult) => CrawlerResult | Promise<CrawlerResult>)[]): Promise<CrawlerResult>;
++    }
++
++    const crawler_request_wrapper: CrawlerRequestWrapper;
++
++    export = crawler_request_wrapper;
++}
+\ No newline at end of file

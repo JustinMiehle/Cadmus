@@ -1,0 +1,14 @@
+[
+	{
+		"id": "europe",
+		"name": "European Parliament"
+	},
+	{
+		"id": "bundestag",
+		"name": "Deutscher Bundestag"
+	},
+	{
+		"id": "hamburg-buergerschaft",
+		"name": "Hamburger Bürgerschaft"
+	}
+]

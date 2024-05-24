@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" className="absolute inset-0 w-full h-full -z-10 opacity-5">
+        <path
+            d="M500,10 Q600,100 700,50 T900,90 Q950,190 990,290 T980,490 Q880,590 980,690 T970,890 Q870,990 770,980 T570,990 Q470,890 370,990 T170,980 Q70,880 30,780 T20,580 Q120,480 20,380 T30,180 Q130,80 230,20 T430,10 Q530,110 500,10"
+            fill="none" stroke="#003399" strokeWidth="5" />
+</svg>
